@@ -6,7 +6,7 @@ const connection = mysql.createConnection({
   host: "localhost",
   port: 3306,
   user: "root",
-  password: "password",
+  password: "8MyPgLOOK22!",
   database: "employee_trackerDB",
 });
 
@@ -70,7 +70,7 @@ function viewAllEmployees() {
     function (err, res) {
       if (err) throw err;
       console.table(res);
-      startPrompt();
+      initialPrompt();
     }
   );
 }
@@ -81,7 +81,7 @@ function viewAllRoles() {
     function (err, res) {
       if (err) throw err;
       console.table(res);
-      startPrompt();
+      initialPrompt();
     }
   );
 }
@@ -92,7 +92,7 @@ function viewAllDepartments() {
     function (err, res) {
       if (err) throw err;
       console.table(res);
-      startPrompt();
+      initialPrompt();
     }
   );
 }
@@ -163,7 +163,7 @@ function updateEmployee() {
             function (err) {
               if (err) throw err;
               console.table(val);
-              startPrompt();
+              initialPrompt();
             }
           );
         });
@@ -211,7 +211,7 @@ function addEmployee() {
         function (err) {
           if (err) throw err;
           console.table(val);
-          startPrompt();
+          initialPrompt();
         }
       );
     });
@@ -235,7 +235,7 @@ function addDepartment() {
         function (err) {
           if (err) throw err;
           console.table(res);
-          startPrompt();
+          initialPrompt();
         }
       );
     });
@@ -268,7 +268,7 @@ function addRole() {
             function (err) {
               if (err) throw err;
               console.table(res);
-              startPrompt();
+              initialPrompt();
             }
           );
         });
