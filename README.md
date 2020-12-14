@@ -18,4 +18,4 @@ Minimum Requirements
 
 The URL of the GitHub repository:
 
-![](images/Employee_Management_System.png)
+![](image/Employee_Management_System.png)
