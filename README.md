@@ -16,6 +16,6 @@ Minimum Requirements
 -View departments, roles, employees
 -Update employee roles
 
-The URL of the GitHub repository:
+The URL of the GitHub repository: https://github.com/kbrummy/Employee-Management-System
 
 ![](image/Employee_Management_System.png)
